@@ -1,0 +1,39 @@
+<html>
+<head>
+	<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/main.css">
+        <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+</head>
+<body>
+	<header>
+		<h1 data-in-effect="change-text" 
+			data-in-value-two="Subject title" 
+			data-in-active-state="one"
+			id="header-title">Application</h1>
+
+		<div data-in-effect="chain-effect" id="header-controls" class="header-buttons">
+			<a data-in-effect="visibility" data-in-visibility="visible" class="entypo-bell"></a>
+			<a data-in-effect="visibility" data-in-visibility="visible" class="entypo-cog"></a>
+			<a data-in-effect="visibility" data-in-visibility="visible" class="entypo-direction"></a>
+		</div>
+		<div data-in-effect="chain-effect" id="header-controls-second" class="header-buttons" data-in-effect-delay="200">
+			<a data-in-effect="visibility" data-in-visibility="hidden" class="entypo-droplet"></a>
+		</div>
+	</header>
+	<a id="change-state" class="btn" data-in-effect="click" data-in-effect-remove-after="300">Change state</a>
+	<ul class="main-menu">
+		<li><a data-in-effect="click" data-in-effect-remove-after="300">Menu</a></li>
+		<li><a data-in-effect="click" data-in-effect-remove-after="300">Menu</a></li>
+		<li><a data-in-effect="click" data-in-effect-remove-after="300">Menu</a></li>
+		<li><a data-in-effect="click" data-in-effect-remove-after="300">Menu</a></li>
+		<li><a data-in-effect="click" data-in-effect-remove-after="300">Menu</a></li>
+		<li><a data-in-effect="click" data-in-effect-remove-after="300">Menu</a></li>
+	</ul>
+	<script src="js/base.js"></script>
+</body>
+</html>
